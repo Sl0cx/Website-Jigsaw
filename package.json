@@ -7,6 +7,10 @@
         "dev": "npm run local",
         "prod": "npm run production",
         "watch": "npm run local -- --watch"
+        "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
     },
     "devDependencies": {
         "cross-env": "^3.2.3",
@@ -15,23 +19,11 @@
         "sass": "^1.15.2",
         "sass-loader": "^7.1.0",
         "vue-template-compiler": "^2.6.12"
-    }
-}
-{
-  "name": "generateurDeCitations",
-  "version": "0.1.0",
-  "private": true,
-  "devDependencies": {
-    "react-scripts": "0.8.4"
-  },
-  "dependencies": {
+        "react-scripts": "0.8.4"
+    },
+    "dependencies": {
     "react": "^15.4.1",
     "react-dom": "^15.4.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
   }
 }
+
